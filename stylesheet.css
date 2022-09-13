@@ -113,3 +113,30 @@ nav ul li{
     background-color: blueviolet;
 }
 
+
+@media screen and (min-width:360px) {
+
+    .grid-area-container{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "area2"
+        "area3"
+        "area1"
+        "area4";
+    }
+
+    .grid{
+        display: block;
+        /* grid-template-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"; */
+
+    }
+    
+}
